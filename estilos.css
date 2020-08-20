@@ -14,6 +14,15 @@ valores: Son esas cosas que esperan recibir las variables como propiedades para 
 -El valor en este caso es pink
 */
 
+/*
+Tipos de selectores:
+-De etiqueta: como los son el header - section -article - nav ...
+-De hijo o descendente: se debe hacer desde la etiqueta padre e ir desclosando las etiquetas hijos hasta llegar a la que deseo editar
+-De clase: Se hace con un punto (.) por ejemplo .link link seria la class que queremos editar
+-De id: Se hace con #nombre-del-id
+*/
+/*
+
 header {
     background: pink;
     color: red;
@@ -30,10 +39,33 @@ body header div nav ol li a {
 #contacto {
 
 }
-/*
-Tipos de selectores:
--De etiqueta: como los son el header - section -article - nav ...
--De hijo o descendente: se debe hacer desde la etiqueta padre e ir desclosando las etiquetas hijos hasta llegar a la que deseo editar
--De clase: Se hace con un punto (.) por ejemplo .link link seria la class que queremos editar
--De id: Se hace con #nombre-del-id
 */
+body {
+    font-family: 'Raleway';
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cinzel Decorative';
+    font-weight: normal;
+    /*font-style: italic;*/
+}
+
+h1 {
+    line-height: 1.5;
+    font-size: 30px;
+    letter-spacing: -.2px;
+    /*text-transform: uppercase;
+    text-decoration: dashed;*/
+}
+
+.project-details {
+    width:600px;
+}
+
+.project-imageContainer {
+    width: 600px;
+}
+
+.hero {
+    height: 300px;
+}
