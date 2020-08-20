@@ -3,66 +3,69 @@
     <head>
         <title>Portafolio Santiago Restrepo</title>
         <link rel="icon" type="image/png" href="https://i.imgur.com/f4ZwStQ.png?1"/>
+        <link rel="stylesheet" type="text/css" href="estilos.css"/>
         <meta charset="UTF-8"/>
     </head>
     <body>
-        <header>
+        <header class="header">
             <div>
-                <figure>
+                <figure class="logo">
                     <img src="https://i.imgur.com/f37p0ln.png" alt="imagen del logo de SantiSite"/> <!--imagen del logo-->
                 </figure>
-                <nav>
+                <nav class="menu">
                     <ol>
                         <li>
-                            <a href="#portafolio">Portafolio</a>
+                            <a class="link" href="#portafolio">Portafolio</a>
                         </li>
                         <li>
-                            <a href="#exp">Experiencia</a>
+                            <a class="link" href="#exp">Experiencia</a>
                         </li>
                         <li>
-                            <a href="#contacto">Trabajemos juntos</a>
+                            <a class="link" href="#contacto">Trabajemos juntos</a>
                         </li>
                     </ol>
                 </nav>
             </div>
         </header>
-        <section>
+        <section class="hero">
             <h1><strong>Santiago Restrepo Villada</strong> estudiante <br/> de Ingenieria Industrial <br/> y apasionado por la <strong>programación</strong></h1>
             <img src="https://i.imgur.com/Kfm5R0D.jpg" alt="imagen de portada" width="500" height="300"/> <!--imagen de portada-->
         </section>
-        <section id="portafolio">
+        <section id="portafolio" class="portfolio">
             <h2>Portafolio-Proyectos Destacados</h2>
-            <article>
-                <h3>Platzi Video</h3>
-                <h6>React Native / React</h6>
-                <p><small><strong>Fecha:</strong> 17/08/2020</small></p>
-                <p><small><strong>Puedes verlo en: </strong>www.platzi.com/native</small></p>
-                <p>Platzi Video fue el resultado de 3 meses de trabajo para crear la mejor app
+            <article class="project">
+                <h3 class="project-title">Platzi Video</h3>
+                <h6 class="project-course">React Native / React</h6>
+                <p class="project-date"><small><strong>Fecha:</strong> 17/08/2020</small></p>
+                <p class="project-url"><small><strong>Puedes verlo en: </strong>www.platzi.com/native</small></p>
+                <p class="project-description">Platzi Video fue el resultado de 3 meses de trabajo para crear la mejor app
                     para enseñar el funcionamiento de React y React Native. Desde crear un vista-detalle,
                     hasta patrones avanzados de navegación, este proyecto ha sido el ejemplo de futuros
                     creadores de aplicaciones multiplataforma.</p>
-                <img src="" alt="Imagen de un proyecto" width="500" height="300"  />
+                <figure class="project-imageContainer">
+                    <img class="project-image" src="" alt="Imagen de un proyecto" width="500" height="300"  />
+                </figure>
             </article>
         </section>
         <section id="exp">
             <h2>Más sobre mi experiencia</h2>
-            <article>
-                <figure>
-                    <img src="" alt="imagen de mi experincia en pogramacion o marketing" width="500" height="300"/> <!--imagen-->
+            <article class="event">
+                <figure class="event-imageContainer">
+                    <img class="event-image" src="" alt="imagen de mi experincia en pogramacion o marketing" width="500" height="300"/> <!--imagen-->
                 </figure>
-                <h3>PlatziConf México 2018</h3>
-                <p>El evento más grande sobre gente que quiere aprender más de internet. En este evento
+                <h3 class="event-title">PlatziConf México 2018</h3>
+                <p class="event-description">El evento más grande sobre gente que quiere aprender más de internet. En este evento
                     te comparto cómo tener una vida de constante aprendizaje.</p>
-                <a href="https://www.youtube.com/watch?v=OLBB20zaRVs" target="_blank">Ver Plática</a>
+                <a class="event-url" href="https://www.youtube.com/watch?v=OLBB20zaRVs" target="_blank">Ver Plática</a>
             </article>
         </section>
-        <section id="contacto">
-            <form action="suscripcion">
+        <section id="contacto" class="contact">
+            <form class="form-email" action="">
                 <h3>¿Creamos algo juntos?</h3>
                 <input  type="text" placeholder="Déjame tu email"/>
                 <button>Enviar</button>
             </form>
         </section>
-        <footer>Footer</footer>
+        <footer class="footer">Footer</footer>
     </body>
 </html>

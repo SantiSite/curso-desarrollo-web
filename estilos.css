@@ -1,0 +1,39 @@
+/*
+reglas: Estan formadas por los selectores, declaraciones, propiedades y valores.
+selectores: estan formados de como identificar un elemento html
+declaraciones: Es lo que hacemos con los selectores
+propiedades: Son cosas particulares que podemso hacer con los elementos
+valores: Son esas cosas que esperan recibir las variables como propiedades para actuar de forma correcta
+*/
+
+/*
+-Una regla es all el conjunto que esta abajo
+-El selector es el header
+-La declaracion es lo que esta dentro de las llaves{}
+-La propiedad en este caso es el background
+-El valor en este caso es pink
+*/
+
+header {
+    background: pink;
+    color: red;
+}
+
+body header div nav ol li a {
+
+}
+
+.link {
+
+}
+
+#contacto {
+
+}
+/*
+Tipos de selectores:
+-De etiqueta: como los son el header - section -article - nav ...
+-De hijo o descendente: se debe hacer desde la etiqueta padre e ir desclosando las etiquetas hijos hasta llegar a la que deseo editar
+-De clase: Se hace con un punto (.) por ejemplo .link link seria la class que queremos editar
+-De id: Se hace con #nombre-del-id
+*/
