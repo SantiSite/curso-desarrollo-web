@@ -42,6 +42,7 @@ body header div nav ol li a {
 */
 body {
     font-family: 'Raleway';
+    margin: 0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -50,12 +51,47 @@ h1, h2, h3, h4, h5, h6 {
     /*font-style: italic;*/
 }
 
+.menu ol {
+    margin: 0px 0px;
+}
+
 h1 {
-    line-height: 1.5;
+    line-height: 50px;
     font-size: 30px;
-    letter-spacing: -.2px;
+    letter-spacing: 1px;
+    color: black;
     /*text-transform: uppercase;
     text-decoration: dashed;*/
+    margin:0px 50px 50px 20px;
+}
+
+h1 strong {
+    color: #8A3801;
+}
+
+.portfolio {
+    background: #eef6f6;
+}
+
+.project {
+    /*border-top: solid 10px red;
+    border-left: solid 10px orange;
+    border-bottom: solid 10px lightcoral;
+    border-right: solid 10px green;
+    border-top-color: orange;
+    border-top-width: 15px;
+    border-top-style: solid;*/
+    border: 2px solid #3D1800;
+    border-radius: 20px ;
+    /*border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;*/
+    margin: 10px;
+    margin-bottom: 15px;
+    padding:20px;
+    background: white;
+
 }
 
 .project-details {
@@ -68,4 +104,19 @@ h1 {
 
 .hero {
     height: 300px;
+    background-image:url("https://i.imgur.com/Kfm5R0D.jpg") ;
+    background-color: #18CDD6;
+    background-size: 500px 300px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+.header {
+    background-color: #18CDD6;
+    color: black;
+}
+
+.header a {
+    color: black;
+    text-decoration: none;
 }
