@@ -57,7 +57,7 @@ menu {
 
 .menu ol {
     margin: 0px 0px;
-}
+    }
 
 h1 {
     line-height: 50px;
@@ -66,15 +66,25 @@ h1 {
     color: black;
     /*text-transform: uppercase;
     text-decoration: dashed;*/
-    margin:0px 50px 50px 20px;
+    margin:0px;
 }
 
 h1 strong {
     color: #8A3801;
 }
 
+h2 {
+    text-transform: uppercase;
+    color: #8A3801;
+    font-family: 'Raleway';
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
 .portfolio {
     background: #eef6f6;
+    padding: 20px;
 }
 
 .project {
@@ -91,16 +101,38 @@ h1 strong {
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;*/
-    margin: 10px;
+    /*margin: 10px;*/
     margin-bottom: 15px;
     padding:20px;
     background: white;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .project-details {
     width:500px;
     /*display:inline-block;*/
+}
+
+.project-title {
+    font-size: 25px;
+    margin-top:0;
+    margin-bottom: 10px;
+}
+
+.project-course,
+.project-date,
+.project-url {
+    margin: 10px 0;
+}
+
+.project-description {
+    font-size: 20px;
+}
+
+.project strong {
+    font-family: 'Cinzel Decorative';
 }
 
 .project-imageContainer {
@@ -110,11 +142,17 @@ h1 strong {
 
 .hero {
     height: 300px;
-    background-image:url("https://i.imgur.com/Kfm5R0D.jpg") ;
-    background-color: #18CDD6;
-    background-size: 500px 300px;
+    /*background-image:url("https://i.imgur.com/Kfm5R0D.jpg");*/
+    background-color: #18cdd6;
+    /*background-size: 500px 300px;
     background-repeat: no-repeat;
-    background-position-x: right;
+    background-position-x: right;*/
+    display: flex;
+    align-items: center;
+}
+
+.hero-image {
+    object-fit: cover;
 }
 
 .header {
@@ -122,7 +160,8 @@ h1 strong {
     color: black;
     display: flex;
     justify-content: space-between;
-    height: 90px;
+    height: 70px;
+    align-items: center;
 }
 
 .header a {
@@ -153,3 +192,138 @@ figure {
     margin: 0;
 }
 
+.footer {
+    background-color: #171616;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer img {
+    vertical-align: middle;
+}
+
+.footer a {
+    color: white;
+}
+
+.event-list-title {
+    margin-left: 20px;
+}
+
+.event-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.event {
+    margin: 10px;
+    width: 480px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #eef6f6;
+}
+
+.event img {
+    width: 480px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.event-detail {
+    margin: 20px 40px;
+    margin-top: -40px ;
+    background-color: white;
+    position: relative;
+    padding: 20px;
+    text-align: center;
+}
+
+.event-description {
+    text-align: left;
+}
+
+.event-url {
+    border: 1px solid sandybrown;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: sandybrown;
+    border-radius: 5px;
+}
+
+.contact {
+    background-color: #18cdd6;
+    color: black;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social {
+}
+
+.social-link {
+    margin: 0 10px;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-size: 50px 50px;
+}
+
+.social-link.twitter {
+    background-image: url("./imagenes/redes-sociales/twitter.svg");
+}
+
+
+.social-link.facebook {
+    background-image: url("./imagenes/redes-sociales/facebook.svg");
+}
+
+
+.social-link.github {
+    background-image: url("./imagenes/redes-sociales/github.svg");
+}
+
+
+.social-link.instagram {
+    background-image: url("./imagenes/redes-sociales/instagram.svg");
+}
+
+.form-email input {
+    border-color: gray;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px 20px 10px 25px;
+    background-size: 15px 15px;
+    background-image: url("./imagenes/redes-sociales/envelope.svg") ;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 5px;
+}
+
+.form-email button {
+    display: block;
+    padding: 10px 0;
+    background: transparent;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    margin-top: 10px;
+}
+
+.form-email h3 {
+    font-family: 'Raleway';
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+}
