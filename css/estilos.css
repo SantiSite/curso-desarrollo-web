@@ -274,22 +274,22 @@ figure {
 }
 
 .social-link.twitter {
-    background-image: url("./imagenes/redes-sociales/twitter.svg");
+    background-image: url("../imagenes/redes-sociales/twitter.svg");
 }
 
 
 .social-link.facebook {
-    background-image: url("./imagenes/redes-sociales/facebook.svg");
+    background-image: url("../imagenes/redes-sociales/facebook.svg");
 }
 
 
 .social-link.github {
-    background-image: url("./imagenes/redes-sociales/github.svg");
+    background-image: url("../imagenes/redes-sociales/github.svg");
 }
 
 
 .social-link.instagram {
-    background-image: url("./imagenes/redes-sociales/instagram.svg");
+    background-image: url("../imagenes/redes-sociales/instagram.svg");
 }
 
 .form-email input {
@@ -298,7 +298,7 @@ figure {
     border-radius: 5px;
     padding: 10px 20px 10px 25px;
     background-size: 15px 15px;
-    background-image: url("./imagenes/redes-sociales/envelope.svg") ;
+    background-image: url("../imagenes/redes-sociales/envelope.svg") ;
     background-repeat: no-repeat;
     background-position-y: center;
     background-position-x: 5px;
