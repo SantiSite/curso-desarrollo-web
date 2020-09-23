@@ -1,3 +1,63 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
+    .header {
+        display: block;
+        height: auto;
+    }
 
+    .logo {
+        text-align: center;
+    }
+
+    .menu ol {
+        display: initial;
+    }
+
+    .menu ul li {
+        height: 50px;
+    }
+
+    .menu ol ul li a {
+        justify-content: center;
+    }
+
+    .project {
+        display: block;
+    }
+
+    .project-imageContainer {
+        width: auto;
+        text-align: center;
+    }
+
+    .project-details {
+        width: auto;
+    }
+
+    .project-details {
+        font-size: 15px;
+    }
+
+    .project-course,
+    .project-date,
+    .project-url {
+        margin: .3em;
+    }
+
+    .project-title {
+        font-size: 1.5em;
+        margin-bottom: .3em;
+    }
+
+    .project-course {
+        font-size: 0.7em;
+    }
+
+    .project-date,
+    .project-url {
+        font-size: 1em;
+    }
+
+    .project-description {
+        font-size: .9em;
+    }
 }
