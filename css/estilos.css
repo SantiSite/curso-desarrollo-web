@@ -60,17 +60,17 @@ menu {
     }
 
 h1 {
-    line-height: 50px;
+    line-height: 30px;
     font-size: 30px;
     letter-spacing: 1px;
-    color: black;
+    color: white;
     /*text-transform: uppercase;
     text-decoration: dashed;*/
     margin:0px;
 }
 
 h1 strong {
-    color: #8A3801;
+    color: #c57743;
 }
 
 h2 {
@@ -155,7 +155,6 @@ h2 {
     background-position-x: right;*/
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
 }
 
 .hero-image {
@@ -227,8 +226,8 @@ figure {
 }
 
 .event {
-    margin: 10px;
-    width: 480px;
+    margin: 1%;
+    width: 48%;
     flex-shrink: 0;
     border-radius: 10px;
     overflow: hidden;

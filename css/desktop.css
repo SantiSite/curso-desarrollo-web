@@ -1,3 +1,27 @@
 @media screen and (max-width: 1024px) {
+    .container {
+        padding: 0 1em;
+    }
+    .hero-image {
+        position: absolute;
+        z-index: 1;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+    }
 
+    .hero {
+        height: auto;
+        position: relative;
+        overflow: hidden;
+        padding: 1em;
+    }
+
+    h1 {
+        line-height: 50px;
+        font-size: 2em;
+        z-index: 2;
+    }
 }

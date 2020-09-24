@@ -1,5 +1,34 @@
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 551px) {
+    h1 {
+        font-size: 1.5em;
+    }
+
     .project-details {
         font-size: 11px;
+    }
+
+    .event-detail {
+        margin: -2em .5em .5em;
+        padding: 1em;
+    }
+
+    .contact {
+        height: auto;
+        padding: 1.5em 0;
+        display: block;
+        text-align: center;
+    }
+
+    .form-email h3 {
+        margin-top: 0;
+    }
+
+    .form-email button {
+        margin: 1em auto;
+    }
+
+    footer .container   {
+        justify-content: center;
+        border: 1px solid transparent;
     }
 }
