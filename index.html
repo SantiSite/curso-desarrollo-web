@@ -13,12 +13,13 @@
         <meta name = "viewport" content = "width=device-width, initial-scale=1.0"/>
     </head>
     <body>
+        <i class="icon-menu burger-button" id="burger-menu"></i>
         <header class="header">
             <div class="container">
                 <figure class="logo">
                     <img src="https://i.imgur.com/f37p0ln.png" height="50" alt="imagen del logo de SantiSite"/>
                 </figure>
-                <nav class="menu">
+                <nav class="menu" >
                     <ol>
                         <ul>
                             <li><a class="link" href="#portafolio">Portafolio</a></li>
@@ -77,11 +78,26 @@
         <div id="exp" class="container">
             <h2 class="event-list-title">Más sobre mi experiencia</h2>
         </div>
+        <!--<iframe src="https://platzi.com" width="500" height="500" frameborder="0"></iframe>-->
         <section  class="event-list">
             <div class="container">
                 <article class="event">
                     <figure class="event-imageContainer">
-                        <img class="event-image" src="https://i.imgur.com/a6D2qii.jpg" alt="imagen de mi experincia en pogramacion o marketing" width="500" height="300"/>
+                        <video class="html-video" src="videos/f8.mp4" width="1280" height="720" controls></video>
+                    </figure>
+                    <div class="event-detail">
+                        <h3 class="event-title">PlatziConf México 2018</h3>
+                        <p class="event-description">El evento más grande sobre gente que quiere aprender más de internet. En este evento
+                            te comparto cómo tener una vida de constante aprendizaje.</p>
+                        <a class="event-url" href="https://www.youtube.com/watch?v=OLBB20zaRVs" target="_blank">Ver Plática</a>
+                    </div>
+                </article>
+                <article class="event">
+                    <figure class="event-imageContainer">
+                        <div class="flexible-video">
+                            <iframe class="youtube-video" width="560" height="315" src="https://www.youtube.com/embed/VE8-GZbX63w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <!--<img class="event-image" src="https://i.imgur.com/a6D2qii.jpg" alt="imagen de mi experincia en pogramacion o marketing" width="500" height="300"/>-->
                     </figure>
                     <div class="event-detail">
                         <h3 class="event-title">PlatziConf México 2018</h3>
@@ -105,16 +121,6 @@
                     <figure class="event-imageContainer">
                         <img class="event-image" src="https://i.imgur.com/a6D2qii.jpg" alt="imagen de mi experincia en pogramacion o marketing" width="500" height="300"/>
                     </figure>
-                    <div class="event-detail">
-                        <h3 class="event-title">PlatziConf México 2018</h3>
-                        <p class="event-description">El evento más grande sobre gente que quiere aprender más de internet. En este evento
-                            te comparto cómo tener una vida de constante aprendizaje.</p>
-                        <a class="event-url" href="https://www.youtube.com/watch?v=OLBB20zaRVs" target="_blank">Ver Plática</a>
-                    </div>
-                </article>
-                <article class="event">
-                    <figure class="event-imageContainer">
-                        <img class="event-image" src="https://i.imgur.com/a6D2qii.jpg" alt="imagen de mi experincia en pogramacion o marketing" width="500" height="300"/>
                     <div class="event-detail">
                         <h3 class="event-title">PlatziConf México 2018</h3>
                         <p class="event-description">El evento más grande sobre gente que quiere aprender más de internet. En este evento
@@ -149,5 +155,6 @@
                 </div>
             </div>
         </footer>
+        <script type="text/javascript" src="./js/js.js"></script>
     </body>
 </html>

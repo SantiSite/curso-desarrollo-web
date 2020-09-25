@@ -1,11 +1,40 @@
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 757px) {
     .header {
         display: block;
         height: auto;
     }
 
+    .header a {
+        color: wheat;
+        height: 40px;
+        font-size: 2em;
+        text-decoration: underline;
+        margin-bottom: 0.5em;
+    }
+
+    .header a:hover {
+    }
+
     .logo {
         text-align: center;
+    }
+
+    .menu {
+        background: rgba(43, 40, 40, 0.9);
+        position: fixed;
+        z-index: 3;
+        top: 0;
+        left: -100vw;
+        bottom: 0;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: .5s;
+    }
+
+    .menu.is-active {
+        left: 0;
     }
 
     h1 {
@@ -82,5 +111,10 @@
 
     .event-imageContainer {
         text-align: center;
+    }
+
+    .burger-button {
+        z-index: 4;
+        display: block;
     }
 }

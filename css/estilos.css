@@ -40,6 +40,38 @@ body header div nav ol li a {
 
 }
 */
+
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../imagenes/fonts/icomoon/fonts/icomoon.eot?6i4w2b');
+    src:  url('../imagenes/fonts/icomoon/fonts/icomoon.eot?6i4w2b#iefix') format('embedded-opentype'),
+    url('../imagenes/fonts/icomoon/fonts/icomoon.ttf?6i4w2b') format('truetype'),
+    url('../imagenes/fonts/icomoon/fonts/icomoon.woff?6i4w2b') format('woff'),
+    url('../imagenes/fonts/icomoon/fonts/icomoon.svg?6i4w2b#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-menu:before {
+    content: "\e900";
+}
+
 body {
     font-family: 'Raleway';
     margin: 0;
@@ -336,4 +368,44 @@ figure {
     height: inherit;
     flex-wrap: inherit;
     flex: 1;
+}
+
+.html-video {
+    width: 100%;
+    height: auto;
+}
+
+.flexible-video {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-top: 56.25%;
+}
+
+.youtube-video {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.burger-button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    /*background-color: rgba(rojo (0 - 255), verde (0 - 255), azul (0 - 255), opacidad (0 - 1));*/
+    background-color: rgba(0, 0, 0, .8);
+    display: none;
+    line-height: 40px;
+    text-align: center;
+    position: fixed;
+    z-index: 3;
+    left: 5px;
+    top: 5px;
+    color: white;
 }
